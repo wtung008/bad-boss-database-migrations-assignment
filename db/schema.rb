@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170202210416) do
+ActiveRecord::Schema.define(version: 20170202213033) do
 
   create_table "locations", force: :cascade do |t|
     t.string  "country"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20170202210416) do
     t.integer "quantity"
   end
 
-  create_table "party_guests", force: :cascade do |t|
+  create_table "widgets", force: :cascade do |t|
     t.string  "first_name"
     t.string  "last_name"
     t.text    "dietary_restrictions"
